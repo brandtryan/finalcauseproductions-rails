@@ -1,7 +1,7 @@
 databases:
   - name: finalcauseproductions
     databaseName: finalcauseproductions
-    user: finalcauseproductions
+    user: brandt
     plan: free
 
 services:
