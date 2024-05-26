@@ -28,15 +28,16 @@
 # START
 default: &default
   adapter: postgresql
-  host: localhost
+  encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: finalcauseproductions
+  username: brandt
+  password: pegis
+  host: localhost
   timeout: 5000
 
 development:
   <<: *default
-  database: finalcauseproductions
-  username: brandt
-  password: pegis
 
 test:
   adapter: sqlite3
