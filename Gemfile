@@ -19,14 +19,14 @@ gem "stimulus-rails",             "1.0.4"
 gem "jbuilder",                   "2.11.5"
 gem "puma",                       "5.6.4"
 gem "bootsnap",                   "1.12.0", require: false
-gem "rubocop",                    "1.62.1"
 
 group :development, :production do
   gem "pg", "1.3.5"
 end
 
 group :development, :test do
-  gem "debug",   "1.5.0", platforms: %i[ mri mingw x64_mingw ]
+  gem "rubocop", "1.62.1"
+  gem "debug", "1.5.0", platforms: %i[ mri mingw x64_mingw ]
 end
 
 group :development do
