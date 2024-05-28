@@ -1,4 +1,3 @@
-app / javascript / custom / menu.js
 // Menu manipulation
 
 // Add toggle listeners to listen for clicks.
